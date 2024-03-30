@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #2E1042;
+}
+.portada{
+    background-image:url(../img/Fondo2.png);
+}
+.portada img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    right: 30%;
+}
+.portada h1{
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    color: #FFCD34;
+    padding: 1rem 1rem 2rem 1rem;
+}
+#modalidadContainer{
+    margin: 3rem;
+    background-color: #FFCD34;
+}
+#modalidadContainer h2{
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    color: #FF4A97;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+#modalidadContainer ul{
+    width: 25%;
+    margin-top: 2rem;
+}
+#modalidadContainer ul li{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.3rem;
+    padding-top: .5rem;
+}
+#modalidadContainer img{
+    width: 20%;
+}
+#modalidadContainer a button{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.4rem;
+    width: 10%;
+    padding: .2rem;
+    border-radius: 5px;
+    position: relative;
+    left: 45%;
+    right: 45%;
+    margin: 2rem;
+    background-color: #FF4A97;
+    color: #FFCD34;
+}
+#modalidad{
+    /* width: 70%;
+    position: relative;
+    left: 15%;
+    right: 15%; */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#tresPlanes h2{
+    font-family: "Protest Riot", sans-serif;
+    text-align: center;
+    color: #3BCEAC;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#planes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%
+}
+#planes ul{
+    font-family: "Quicksand", sans-serif;
+}
+#planes div{
+    width: 30%;
+}
+.plan{
+    background-color: #3BCEAC;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.plan h3{
+    font-family: "Protest Riot", sans-serif;
+    text-align: center;
+}
+.plan img{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+}
+.plan ul{
+    width: 95%;
+    margin: 1rem;
+}
+#clubDeConversacion{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    background-color: #FF4A97;
+}
+#clubDeConversacion h2{
+    font-family: "Protest Riot", sans-serif;
+    text-align: center;
+}
+#speakingClubs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    right: 15%;
+}
+#speakingClubs div{
+    width: 25%;
+}
+#speakingClubs div img{
+    width: 100%;
+}
+#speakingClubs article{
+    font-family: "Quicksand", sans-serif;
+    width: 50%;
+    font-size: 1.1rem;
+}
+#presentaciones{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+#presentaciones h2{
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #FF4A97;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#profes{
+    width: 90%;
+    position:relative;
+    left: 5%;
+    right: 5%;
+    border: 1px solid #FFCD34;
+    border-radius: 20px;
+}
+.presentacionProfes{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 3rem 1.5rem 3rem;
+    background-color: #FFCD34;
+    border-radius: 10px;
+}
+.presentacionProfes h3{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: bold;
+    color: #FF4A97;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* .avatarPresentacion{
+    width: 20%;
+    height: 20%;
+}
+.avatarPresentacion img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 80%;
+} */
+.fotoProfes{
+    width: 18%;
+    margin: 1.3rem;
+}
+.fotoProfes img{
+    width: 100%;
+    border-radius: 50%;
+}
+.textoPresentacion{
+    font-family: "Quicksand", sans-serif;
+    width: 70%;
+    margin: 2rem;
+}
+#recomendaciones{
+    width: 100%;
+    background-color: #3BCEAC;
+    margin-top: 3rem;
+}
+#recomendaciones h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Protest Riot", sans-serif;
+    color: #FFCD34;
+    padding: 2rem;
+}
+#recoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+
+}
+.commentCard{
+    width: 25%;
+    border-radius: 15px;
+    background-color: #FF4A97;
+    margin: 1rem;
+}
+.nombrePais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: .5rem;
+}
+.nombreAlumne{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Protest Riot", sans-serif;
+    color: #FFCD34;
+}
+/* .bandera{
+    width: 30%;
+    height: 5%;
+} */
+.nombrePais img{
+    width: auto;
+    height: 1.8rem;
+}
+footer{
+    background-color: #FF4A97;
+
+}
